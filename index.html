@@ -2,93 +2,65 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Kids' Themed Birthday Party Planner | Unicorn, Minecraft, Dinosaur & More</title>
-  <meta name="description" content="Free checklist and Amazon links for unicorn, Minecraft, dinosaur, jungle, Super Mario, LEGO and Disney princess birthday parties. Easily plan decorations, tableware, balloons and cake toppers.">
+  <title>Kids' Themed Birthday Party Planner | Unicorn, Minecraft, Dinosaur &amp; More</title>
+  <meta name="description" content="Shop Amazon-linked checklists for Unicorn, Minecraft, Dinosaur, Jungle, Super Mario, LEGO and Disney Princess birthday parties—now with photos.">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="canonical" href="https://yourdomain.com/">
-  <!-- Open Graph / Twitter preview for richer shares -->
+  <!-- Open Graph / Twitter preview -->
   <meta property="og:title" content="Kids' Themed Birthday Party Planner">
-  <meta property="og:description" content="Plan a magical kids' party in minutes with curated Amazon links for every theme.">
+  <meta property="og:description" content="Plan a colourful kids' party in minutes with visual Amazon checklists.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://yourdomain.com/">
   <meta property="og:image" content="https://yourdomain.com/preview.jpg">
   <meta name="twitter:card" content="summary_large_image">
-  
-  <style>
-    /* ---------- simple, mobile-first design ---------- */
-    :root {
-      --brand:#ff4081;   /* primary accent */
-      --bg:#fffdfc;
-      --text:#222;
-      --card:#ffffff;
-      --radius:12px;
-    }
-    *{box-sizing:border-box;margin:0;padding:0;}
-    body{
-      font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-      background:var(--bg);
-      color:var(--text);
-      line-height:1.6;
-    }
-    header{ text-align:center; padding:2rem 1rem 1rem; }
-    header h1{ font-size:2rem; margin-bottom:.5rem; color:var(--brand); }
-    header p{ max-width:700px; margin:auto }
-    nav{
-      display:flex; flex-wrap:wrap; justify-content:center; gap:.5rem; margin-top:1rem;
-    }
-    nav a{
-      padding:.4rem .8rem; border-radius:var(--radius); background:var(--brand); color:#fff;
-      font-size:.875rem; text-decoration:none; transition:background .2s;
-    }
-    nav a:hover{ background:#d7346c }
-    section{ padding:2rem 1rem; max-width:860px; margin:auto; }
-    section:nth-of-type(odd){ background:#fdf7fa; }
-    section h2{ font-size:1.6rem; margin-bottom:1rem; display:flex; align-items:center; gap:.5rem; }
-    .item-list{
-      display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:1rem; list-style:none;
-    }
-    .item{ background:var(--card); border-radius:var(--radius); padding:1rem; box-shadow:0 2px 6px rgba(0,0,0,.05); }
-    .item a{ color:var(--brand); font-weight:600; text-decoration:none; }
-    .item a:hover{ text-decoration:underline; }
-    .item span{ display:block; font-size:.875rem; margin-top:.25rem; color:#555; }
-    footer{ text-align:center; font-size:.75rem; padding:2rem 1rem; color:#555; }
-    footer a{ color:inherit; text-decoration:underline; }
-    @media (prefers-color-scheme:dark){
-      :root{ --bg:#121212; --text:#e0e0e0; --card:#1e1e1e; }
-      nav a{ background:#ff4081; }
-    }
-  </style>
 
-  <!-- Minimal structured-data block -->
-  <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "WebPage",
-      "name": "Kids' Themed Birthday Party Planner",
-      "description": "Curated Amazon links for decorations, tableware, balloons and cake toppers for popular kids' party themes.",
-      "url": "https://yourdomain.com/"
+  <style>
+    :root{
+      --brand:#ff4081;--bg:#fffdfc;--text:#222;--card:#ffffff;--radius:14px;
     }
-  </script>
+    *{box-sizing:border-box;margin:0;padding:0}
+    body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.6}
+    header{text-align:center;padding:2rem 1rem 1rem}
+    header h1{font-size:2.2rem;margin-bottom:.5rem;color:var(--brand)}
+    nav{display:flex;flex-wrap:wrap;justify-content:center;gap:.5rem;margin-top:1rem}
+    nav a{padding:.45rem .9rem;border-radius:var(--radius);background:var(--brand);color:#fff;font-size:.875rem;text-decoration:none;transition:background .25s}
+    nav a:hover{background:#d7346c}
+
+    section{padding:2rem 1rem;max-width:1000px;margin:auto}
+    section h2{font-size:1.65rem;margin-bottom:1rem;display:flex;align-items:center;gap:.5rem;color:var(--accent,var(--brand))}
+    .item-list{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:1.2rem;list-style:none}
+    .item{background:var(--card);border-radius:var(--radius);padding:1rem;box-shadow:0 3px 8px rgba(0,0,0,.06);display:flex;flex-direction:column}
+    .item img{width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:var(--radius);margin-bottom:.65rem}
+    .item a{color:var(--accent,var(--brand));font-weight:600;text-decoration:none}
+    .item a:hover{text-decoration:underline}
+    .item span{display:block;font-size:.85rem;margin-top:.3rem;color:#555}
+
+    footer{text-align:center;font-size:.75rem;padding:2rem 1rem;color:#555}
+    footer a{color:inherit;text-decoration:underline}
+
+    /* Theme-specific accents & soft backgrounds */
+    section[data-theme]{background:var(--bg-tint,#fff)}
+    section[data-theme="unicorn"]{--accent:#ff80e7;--bg-tint:#fff4fb}
+    section[data-theme="minecraft"]{--accent:#4caf50;--bg-tint:#f3fdf4}
+    section[data-theme="dinosaur"]{--accent:#5c9e31;--bg-tint:#f4fbf1}
+    section[data-theme="jungle"]{--accent:#2e8b57;--bg-tint:#f2fbf6}
+    section[data-theme="mario"]{--accent:#e53935;--bg-tint:#fff5f4}
+    section[data-theme="lego"]{--accent:#ffb400;--bg-tint:#fffaf0}
+    section[data-theme="princess"]{--accent:#d37adf;--bg-tint:#fcf4ff}
+
+    @media(prefers-color-scheme:dark){:root{--bg:#121212;--text:#e0e0e0;--card:#1e1e1e}nav a{background:#ff4081}}
+  </style>
 </head>
 <body>
   <header>
     <h1>Kids' Themed Birthday Party Planner</h1>
-    <p>Select a theme below and tick off each party essential—every item links straight to Amazon so you can add to cart in seconds.</p>
+    <p>Select a theme below and tick off each party essential—every item includes a photo and links straight to Amazon.</p>
     <nav>
-      <a href="#unicorn">Unicorn</a>
-      <a href="#minecraft">Minecraft</a>
-      <a href="#dinosaur">Dinosaur</a>
-      <a href="#jungle">Jungle</a>
-      <a href="#mario">Super&nbsp;Mario</a>
-      <a href="#lego">LEGO</a>
-      <a href="#princess">Disney&nbsp;Princess</a>
+      <a href="#unicorn">Unicorn</a><a href="#minecraft">Minecraft</a><a href="#dinosaur">Dinosaur</a><a href="#jungle">Jungle</a><a href="#mario">Super&nbsp;Mario</a><a href="#lego">LEGO</a><a href="#princess">Disney&nbsp;Princess</a>
     </nav>
   </header>
 
-  <!-- Affiliate disclosure (FTC + Amazon Associates) -->
-  <div style="text-align:center;font-size:.8rem;padding:1rem;color:#555;">
-    Disclosure: As an Amazon Associate I earn from qualifying purchases.
-  </div>
+  <div style="text-align:center;font-size:.8rem;padding:1rem;color:#555">Disclosure: As an Amazon Associate I earn from qualifying purchases.</div>
 
   <!-- ========= THEME SECTIONS ========= -->
   <!-- ✨ Replace every PASTE-...-LINK below with your Amazon affiliate URL that already includes ?tag=YOUR-ID-20 ✨ -->
